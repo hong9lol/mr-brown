@@ -404,7 +404,6 @@ a.btn:focus{outline: 0;}
 .btn-1 {color: #fff;background-color: #FF6D6D;padding: 10px 20px; font-size: 12px; font-weight: bold;}
 .btn-1:hover {color: #fff;background-color: #333;}
 
-
 /* ---------------------------------------------------------------------------- */
 /* -------------------------------Zoom-Effect---------------------------------- */
 /* ---------------------------------------------------------------------------- */	
@@ -418,6 +417,7 @@ a.btn:focus{outline: 0;}
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
+	-webkit-overflow-scrolling: touch;
 }
 .item-container img {
 	display: block;
