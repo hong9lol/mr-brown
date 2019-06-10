@@ -417,7 +417,6 @@ a.btn:focus{outline: 0;}
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
-	-webkit-overflow-scrolling: touch;
 }
 .item-container img {
 	display: block;
@@ -497,3 +496,6 @@ a.btn:focus{outline: 0;}
 	-ms-hyphens: none;
 	hyphens: none;
 }
+.scroll-touch {
+	-webkit-overflow-scrolling: touch; /* Lets it scroll lazy */
+  }
